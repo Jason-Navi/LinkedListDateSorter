@@ -1,16 +1,21 @@
 #LinkedListDateSorter
 
-DateSorter Program obtains input from textfile (.txt) and sorts the data based on year. 
-Then it prints on the left side of the GUI the unsorted dates and the right side of the GUI the sorted dates. 
+Author: Jason Navi
 
-Also prints out any invalid dates entered as a Date212 Exception as well as any combination of chars and number. 
-Prints dates out in mm/dd/yyyy order.  
+Email: jnavi1002@gmail.com
 
-This project was created to sort dates by using just a Linked-List created from scratch to sort. 
+Program Description: Program obtains input from a textfile (.txt) and sorts the data based on date. Then it prints on the left side of the GUI the unsorted dates and the right side of the GUI the sorted dates. Also prints out any invalid dates (dates literally not possible) entered as a Date212 Exception as well as any incorrect forms of Strings. This project was created to sort dates by using both a Linked-List created from scratch and a TreeMap to sort. Prints dates out in mm/dd/yyyy order.
 
-You can type any series of dates in the textfile in yyyy/mm/dd order and it will run properly.  
-For instance, typing in the textfile named "inputs": 1998/02/6, 1994/11/13, 1998/01/10 will display the following on different lines.
+IDE used: BlueJ
 
-Left-hand side of GUI: 02/6/1998, 11/13/1994, 01/10/1998   
+Libraries used: Java.util, javax.swing, java.awt, java.awt.event, java.io, java.io.BufferedReader, java.io.FileInputStreamReader, java.ioInputStreamReader, java.IOException
 
-Right-hand side of GUI: 11/13/1994, 01/10/1998, 02/06/1998  
+Classes used: DateNode, DateGUI, FileMenuHandler, TextFileInput, IllegalDate212Exception, UnsortedDateList, SortedDateList, Date212, dateRunner, and DateList(abstract)
+
+How to run: For instance, typing in the textfile named "inputs": 1998/02/6, 1994/11/13, 1998/01/10 will display the following on different lines:
+
+Left-hand side of GUI: 02/6/1998, 11/13/1994, 01/10/1998
+
+Right-hand side of GUI: 11/13/1994, 01/10/1998, 02/06/1998
+
+Note: You can type any series of dates in the textfile in yyyy/mm/dd order and it will run properly.
