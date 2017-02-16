@@ -1,3 +1,5 @@
+#LinkedListDateSorter
+
 DateSorter Program obtains input from textfile (.txt) and sorts the data based on year. 
 Then it prints on the left side of the GUI the unsorted dates and the right side of the GUI the sorted dates. 
 
